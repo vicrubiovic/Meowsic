@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-color: black;
+    margin: 0%;
+    background-image: url(../view/img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+}
+
+header{
+    grid-column: 1/4;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+
+label{
+    color: white
+}
+
+input[type=email], select {
+    width: 28%;
+    padding: 12px 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: transparent;
+    color: #ccc
+  }
+
+  input[type=password], select {
+    width: 28%;
+    padding: 12px 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: transparent;
+    color: #ccc
+  }
+
+  footer{
+    background-color: black;
+    grid-column: 1/4;
+    height: 120px;
+    text-align: center;
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh, 70vh, 20vh;
+    grid-gap: 10px;
+}
+
+main{
+    grid-column: 1/4;
+    height: 700px;
+}
+
+#btn_login{
+    height: 30px;
+    width: 12%;
+    background: rgb(30, 215, 96);
+    color: black;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(30, 215, 96);
+}
+
+strong{
+  color: white;
+}

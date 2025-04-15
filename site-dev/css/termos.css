@@ -1,0 +1,44 @@
+header{
+    grid-column: 1/4;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    margin: 0%;
+    background-image: url(../view/img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: black;
+    grid-column: 1/4;
+    height: 120px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-size: cover;
+    grid-column: 1/4;
+    height: 520px;
+    text-align:center;
+}
+
+h1{
+    color: rgb(30, 215, 96);
+}
+
+h2{
+    color: white;
+}

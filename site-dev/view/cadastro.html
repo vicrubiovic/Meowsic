@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastre-se</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/cadastro.css'>
+    <script src='../script/cadastro.js'></script>
+</head>
+<body>
+    <div class="container">
+        <header><a href="../index.html"><img src="../view/img/logo2.png"></a></header>
+        <form>
+            <main>
+                <br>
+                <label for="name">Nome Completo</label><br>
+                <input type="text" name="name" id="name" placeholder="Nome completo"><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Email"><br>
+                <label for="password">Senha</label><br>
+                <input type="password" name="password" id="password" placeholder="Senha"><br>          
+                <label for="cpf_cnpj">CPF ou CNPJ</label><br>
+                <input type="text" name="cpf_cnpj" id="cpf_cnpj" placeholder="CPF ou CNPJ"><br>
+                <label for="birthday">Data de nascimento</label><br>
+                <input type="date" name="birthday" id="birthday" placeholder="Data de nascimento"><br>
+                <br>
+                <label for="terms">Li os <a href="../view/termos.html">Termos e Condições</a>: </label><input type="checkbox" name="terms" id="terms"><br>
+                <br>
+                <input id="btn_submit" type="button" value="CADASTRE-SE" onclick="cadastro()"><br><br><br><br>
+                <strong>Caso já tenha feito o cadastro</strong><br><br>
+                <a href="../view/login.html">JÁ TENHO UMA CONTA</a><br><br>
+            </main>
+        </form>
+        <footer>
+            <br><br>Copyright © 2024 | Gabriel.Joicy.Leonardo.Victoria
+        </footer>
+    </div>
+</body>
+</html>

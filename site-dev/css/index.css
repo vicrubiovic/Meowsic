@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    background-color: black;
+    margin: 0%;
+    background-image: url(../view/img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+}
+
+header{
+    grid-column: 1/4;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+
+aside{
+    background-image: url(../view/img/meowsic.png);
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    grid-column: 1/4;
+    height: 120px;
+    text-align: center;
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh, 70vh, 20vh;
+    grid-gap: 10px;
+}
+
+main{
+    grid-column: 1/3;
+    height: 600px
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(30, 215, 96);
+}
+
+h1{
+    color: rgb(30, 215, 96);
+}
+
+h3{
+    color: white;
+}

@@ -1,0 +1,71 @@
+input[type=text], select {
+    width: 28%;
+    padding: 12px 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: transparent;
+    color: #ccc
+  }
+
+  body{
+    text-align: center;
+    background-color: black;
+    margin: 0%;
+    background-image: url(../view/img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 80px;
+}
+
+header{
+    grid-column: 1/4;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+}
+
+label{
+    color: white
+}
+
+footer{
+    background-color: black;
+    grid-column: 1/4;
+    height: 120px;
+    text-align: center;
+    color: white;
+}
+
+#btn_end{
+    height: 30px;
+    width: 18%;
+    background: rgb(30, 215, 96);
+    color: black;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#number{
+    width: 13%;
+
+}
+
+#complement{
+    width: 13%;
+}
+
+
+aside{
+    height: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(30, 215, 96);
+}
